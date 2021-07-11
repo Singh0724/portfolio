@@ -1,0 +1,223 @@
+body{
+  background-color:#0f0f0f;
+}
+div{
+    color:rgb(61, 21, 156);
+    text-align: left;
+    border:cornsilk 10px none;
+    font-size: 30px;
+    border-radius: 50;
+    
+}
+.circle {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  font-size: 50px;
+  color:rgb(7, 7, 7);
+  text-align: center;
+  background: lightblue;
+  border:10px solid rgb(214, 207, 207);
+  border-width: 30%;
+  
+}
+.circle:hover{
+  background-color: #79c3e0;
+}
+
+img{
+  border-radius: 100% ;
+  width: 300px;
+  -webkit-border-radius: 100% ;
+  -moz-border-radius: 100% ;
+  -ms-border-radius: 100% ;
+  -o-border-radius: 100% ;
+  margin-left: 0px;
+  float: left;
+  border:20px solid #0f0f0f;
+  margin-left: 40px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin:1 300px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(5, 5, 5);
+  position: sticky;
+  top: 0px;
+  float: right;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+}
+.work{
+  color:white;
+}
+h2::first-letter {
+  color: #12b7d4;
+  font-size: 100px;
+  margin-left: 20px;
+  
+}
+.details{
+  color:honeydew;
+}
+
+#do{
+  color: #fff;
+margin-left: 600px;
+  font-size: 40px;
+ 
+
+}
+#web{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  color: #0ec5f3;
+
+}
+#teach{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  color: #8ba808;
+}
+#design{
+  color: #fff;
+  font-size: 35px;
+  
+}
+#teach{
+  color: #fff;
+  font-size: 35px;
+  
+}
+.active:hover {background-color: #3e8e41}
+
+.active:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#bor{
+ /* border: #79c3e0 solid 2px;*/
+  margin-top: 70px;
+  background-color:#181818;
+}
+#image{
+  opacity: 0.5;
+}
+#image:hover{
+  opacity: 1;
+}
+
+
+
+/*    CONTACT     */
+
+#contact{
+  border: #79c3e0 none 2px;
+  padding-bottom: 100px;
+  background-color: #9adce7;
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+#button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  font-size: 16px;
+ 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 0px;
+  display: inline-block;
+  text-align: center;
+  padding: 16px 32px;
+  border: radius 50px;;
+  5-webkit-border-radius:;
+  -moz-border-radius:50px;
+  -ms-border-radius:50px;
+  -o-border-radius:50px;
+  -webkit-border-radius:50px;
+}
+#button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+form{
+  width: 50%;
+ 
+}
+#area{
+  grid-area: right;
+}
+#black{
+  background-color: rgb(0, 0, 0);
+}
+
+#phn,#mail{
+  border-color: black;
+  
+ 
+}
+#call,#mail1{
+  color: rgb(241, 235, 235);
+ 
+}
+#table1{
+  margin-right: 50px;
+  
+
+}
+
+/* EDUCATION */
+
+#education{
+  color:#9adce7;
+  background-color: orange;
+  background-size: 100%;
+}
+
+
